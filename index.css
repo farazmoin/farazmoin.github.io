@@ -1,0 +1,83 @@
+/* Global Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, a {
+    background-color: #1F567A;
+    color: #F7F1F8;
+    font-size: 100%;
+}
+
+/* COLOR PALETTE */
+
+/*
+
+BG: 1F567A
+COLOR: F7F1F8
+BORDER: 0C2231
+PARENT BG: A5AED5
+
+*/
+
+/* GLOBAL RESET ENDS HERE */
+
+/* NAV BAR */
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    padding-top: 10px;
+    font-family: 'Cinzel', cursive;
+    font-size: 14px;
+}
+
+nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+nav ul li:nth-child() {
+    padding-right: 0;
+}
+
+#lowercase {
+    text-transform: lowercase;
+}
+
+/* NAV BAR ENDS HERE */
+
+/* CONTAINER */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+#typeIt {
+        color: #A5AED5;
+}
+
+.container h1 {
+    font-size: 44px;
+    font-family: 'Cinzel', cursive;
+}
+
+.container p {
+    line-height: 1.4;
+    font-family: 'Fauna One', serif;
+    font-size: 14px;
+}
+
+/* CONTAINER ENDS HERE */
